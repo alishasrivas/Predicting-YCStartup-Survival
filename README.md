@@ -8,6 +8,14 @@ This project aims to predict the performance of Y Combinator startups using logi
 
 The inspiration for this project came when a friend of ours was rejected from Y Combinator. We decided to leverage our skills in data analysis and machine learning to investigate the underlying patterns and criteria that could help aspiring founders improve their chances of success.
 
+## 👩🏻‍💻 Contributors
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/alishasrivas"><img src="https://avatars.githubusercontent.com/alishasrivas" width="100px;" alt=""/><br /><sub><b>Alisha Srivastava</b></sub></a><br /><a href="#" title="Code">💻</a> <a href="#" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/siddarvind"><img src="https://avatars.githubusercontent.com/siddarvind" width="100px;" alt=""/><br /><sub><b>Collaborator 1</b></sub></a><br /><a href="#" title="Bug Reports">🐛</a> <a href="#" title="Code">💻</a></td>
+  </tr>
+</table>
+
 ## Dataset
 
 We are utilizing a Kaggle dataset containing information about all Y Combinator startups. This dataset includes various attributes related to each startup, which we will analyze to identify trends and factors influencing their performance. https://www.kaggle.com/datasets/sashakorovkina/ycombinator-all-funded-companies-dataset/data?select=founders.csv
