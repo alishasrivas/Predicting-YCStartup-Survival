@@ -1,10 +1,10 @@
 # Predicting Y Combinator Startups Performance: Logistic Regression
 
-## Project Overview
+## 🚀 Project Overview
 
 This project aims to predict the performance of Y Combinator startups using logistic regression. Our goal is to understand the key factors that contribute to the success of startups in the Y Combinator ecosystem and to explore what criteria Y Combinator looks for when evaluating potential startups for acceptance.
 
-## Inspiration
+## 💡 Inspiration
 
 The inspiration for this project came when a friend of ours was rejected from Y Combinator. We decided to leverage our skills in data analysis and machine learning to investigate the underlying patterns and criteria that could help aspiring founders improve their chances of success.
 
@@ -12,7 +12,7 @@ The inspiration for this project came when a friend of ours was rejected from Y 
 
 We are utilizing a Kaggle dataset containing information about all Y Combinator startups. This dataset includes various attributes related to each startup, which we will analyze to identify trends and factors influencing their performance.
 
-## Current Stage
+## ⏰ Current Stage
 
 We are currently in the Exploratory Data Analysis (EDA) phase, where we examine the dataset, clean the data, and visualize relationships between variables. After completing the EDA, we will implement logistic regression to model the performance of the startups.
 
