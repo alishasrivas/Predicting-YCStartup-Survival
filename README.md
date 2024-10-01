@@ -1,4 +1,4 @@
-# Demystifying Y Combinator Startups Performance: Logistic Regression
+# Predicting Y Combinator Startups Performance: Logistic Regression
 
 ## Project Overview
 
