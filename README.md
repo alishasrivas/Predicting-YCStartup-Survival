@@ -23,6 +23,9 @@ The variables we are considering for regression have been designed based on fina
 - **Description Word Count:** Analyzing the length of startup descriptions as a potential indicator of success.
 - **Location:** Investigating the impact of geographic location on opportunities for startups.
 - **Ivy League Connections:** Exploring whether the founders' educational backgrounds, particularly from Ivy League institutions, play a role in success.
+- **Team Size:** Examining the size of the company to see if it correlates with better performance.
+- **Is FAANG:** Checking if the founder worked at a FAANG company (Facebook, Amazon, Apple, Netflix, Google) prior to founding the startup, and how that experience impacts success.
+- **Field of Study:** Considering the founder’s college field of study to explore if it is related to success, particularly in tech-related startups.
 
 ## Future Work
 
