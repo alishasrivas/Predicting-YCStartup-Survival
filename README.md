@@ -11,8 +11,8 @@ The inspiration for this project came when a friend of ours was rejected from Y 
 ## 👩🏻‍💻 Contributors
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/alishasrivas"><img src="https://avatars.githubusercontent.com/alishasrivas" width="100px;" alt=""/><br /><sub><b>Alisha Srivastava</b></sub></a><br /><a href="#" title="Code">💻</a> <a href="#" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/siddarvind"><img src="https://avatars.githubusercontent.com/siddarvind" width="100px;" alt=""/><br /><sub><b>Collaborator 1</b></sub></a><br /><a href="#" title="Bug Reports">🐛</a> <a href="#" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/alishasrivas"><img src="https://avatars.githubusercontent.com/alishasrivas" width="100px;" alt=""/><br /><sub><b>Alisha Srivastava</b></sub></a></td>
+    <td align="center"><a href="https://github.com/collaborator1"><img src="https://avatars.githubusercontent.com/siddarvind" width="100px;" alt=""/><br /><sub><b>Siddanth Arvind</b></sub></a></td>
   </tr>
 </table>
 
