@@ -18,7 +18,7 @@ The inspiration for this project came when a friend of ours was rejected from Y 
 
 ## Dataset
 
-We are utilizing a Kaggle dataset containing information about all Y Combinator startups. This dataset includes various attributes related to each startup, which we will analyze to identify trends and factors influencing their performance. https://www.kaggle.com/datasets/sashakorovkina/ycombinator-all-funded-companies-dataset/data?select=founders.csv
+We are combining a Kaggle dataset containing information about all Y Combinator startups with our own calculated sentiment scores and scraped funding data from Crunchbase. This dataset includes various attributes related to each startup, which we will analyze to identify trends and factors influencing their performance. https://www.kaggle.com/datasets/sashakorovkina/ycombinator-all-funded-companies-dataset/data?select=founders.csv 
 
 ## ⏰ Current Stage
 
