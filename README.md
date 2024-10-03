@@ -35,7 +35,7 @@ The variables we are considering for regression have been designed based on fina
 - **Is FAANG:** Checking if the founder worked at a FAANG company (Facebook, Amazon, Apple, Netflix, Google) prior to founding the startup, and how that experience impacts success.
 - **Field of Study:** Considering the founder’s college field of study to explore if it is related to success, particularly in tech-related startups.
 
-## Future Work
+## Next Steps
 
 After completing the EDA and regression modeling, we plan to:
 
