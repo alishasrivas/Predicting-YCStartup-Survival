@@ -1,8 +1,8 @@
-# Predicting Y Combinator Startups Performance: Logistic Regression
+# Predicting Y Combinator Startups Performance: Machine Learning
 
 ## 🚀 Project Overview
 
-This project aims to predict the performance of Y Combinator startups using logistic regression. Our goal is to understand the key factors that contribute to the success of startups in the Y Combinator ecosystem and to explore what criteria Y Combinator looks for when evaluating potential startups for acceptance.
+This project aims to predict the performance of Y Combinator startups using machine learning. Our goal is to understand the key factors that contribute to the success of startups in the Y Combinator ecosystem and to explore what criteria Y Combinator looks for when evaluating potential startups for acceptance.
 
 ## 💡 Inspiration
 
