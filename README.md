@@ -1,12 +1,12 @@
-# Predicting Y Combinator Startups Performance: Machine Learning
+# Predicting Y Combinator Startups Survival: Machine Learning
 
 ## 🚀 Project Overview
 
-This project aims to predict the performance of Y Combinator startups using machine learning. Our goal is to understand the key factors that contribute to the success of startups in the Y Combinator ecosystem and to explore what criteria Y Combinator looks for when evaluating potential startups for acceptance.
+This project aims to predict the performance of Y Combinator startups using survival analysis techniques in machine learning and statistics. Our goal is to understand the key factors that contribute to the success of startups in the Y Combinator ecosystem and to explore what criteria Y Combinator looks for when evaluating potential startups for acceptance.
 
 ## 💡 Inspiration
 
-The inspiration for this project came when a friend of ours was rejected from Y Combinator. We decided to leverage our skills in data analysis and machine learning to investigate the underlying patterns and criteria that could help aspiring founders improve their chances of success.
+The inspiration for this project came when a friend of ours was rejected from Y Combinator. We decided to leverage our skills in statistics and machine learning to investigate the underlying patterns and criteria that could help aspiring founders like us improve their chances of success.
 
 ## 👩🏻‍💻 Contributors
 <table>
@@ -18,30 +18,42 @@ The inspiration for this project came when a friend of ours was rejected from Y 
 
 ## Dataset
 
-We are combining a Kaggle dataset containing information about all Y Combinator startups with our own calculated sentiment scores and scraped funding data from Crunchbase. This dataset includes various attributes related to each startup, which we will analyze to identify trends and factors influencing their performance. https://www.kaggle.com/datasets/sashakorovkina/ycombinator-all-funded-companies-dataset/data?select=founders.csv 
+We are utilizing a Kaggle dataset on Y Combinator startups, augmented with additional features we built using external data from scraping & APIs. This includes funding data, founder characteristics, and program-specific metrics such as the YC batch size and time to acquisition. https://www.kaggle.com/datasets/sashakorovkina/ycombinator-all-funded-companies-dataset/data?select=founders.csv 
 
 ## ⏰ Current Stage
 
-We are currently in the Exploratory Data Analysis (EDA) phase, where we examine the dataset, clean the data, and visualize relationships between variables. After completing the EDA, we will implement logistic regression to model the performance of the startups.
+We are currently integrating exploratory data analysis (EDA) with survival-specific methods, such as Kaplan-Meier survival curves. Feature engineering is ongoing, focusing on creating meaningful predictors for the survival models.
 
-## Variables of Interest
+## 🎯 Survival Definitions
 
-The variables we are considering for regression have been designed based on financial and entrepreneurial theories. Some of the key factors we are examining include:
+Primary Survival
+-**Definition:** A startup is considered to have survived if it is acquired or remains operational (not defunct) after completing the YC program.
+- **Event Indicator:** Binary (1 if acquired, 0 otherwise).
+Secondary Survival
+- **Definition:** A startup is considered to have survived post-YC if it raises Series A funding or higher after completing the YC program.
+-**Event Indicator:** Binary (1 if Series A funding is raised, 0 otherwise).
+YC-Specific Feature:
+Series A funding and operational status is considered only after the YC end date (start date + 3 months).
 
-- **Description Word Count:** Analyzing the length of startup descriptions as a potential indicator of success.
-- **Location:** Investigating the impact of geographic location on opportunities for startups.
-- **Ivy League Connections:** Exploring whether the founders' educational backgrounds, particularly from Ivy League institutions, play a role in success.
-- **Team Size:** Examining the size of the company to see if it correlates with better performance.
-- **Is FAANG:** Checking if the founder worked at a FAANG company (Facebook, Amazon, Apple, Netflix, Google) prior to founding the startup, and how that experience impacts success.
-- **Field of Study:** Considering the founder’s college field of study to explore if it is related to success, particularly in tech-related startups.
+## 📊 Analytical Approach
+
+This project combines statistical modeling and machine learning to analyze survival outcomes:
+**Statistical Modeling:**
+Cox Proportional Hazards Model: For identifying statistically significant predictors of survival.
+**Machine Learning:**
+Random Survival Forest: For capturing non-linear relationships and complex interactions between variables.
 
 ## Next Steps
 
 After completing the EDA and regression modeling, we plan to:
-
-- Interpret the results of the logistic regression to identify significant predictors of success.
-- Provide actionable insights for future Y Combinator applicants based on our findings.
-- Explore additional machine learning techniques to improve our predictive model.
+- **Model Development:**
+- Fit and evaluate Cox Proportional Hazards and Random Survival Forest models.
+- Compare performance metrics such as C-index and log-rank test results.
+- **Actionable Insights:**
+- Identify the most influential factors affecting startup survival.
+- Provide recommendations for aspiring YC founders based on the findings.
+- **Portfolio Showcase:**
+- Incorporate visualizations and dashboards into the GitHub repository to enhance usability and presentation.
 
 ## Getting Started
 
