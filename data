@@ -1,4 +1,0 @@
-<script>start("/Users/alishasrivastava/Documents/GitHub/Predicitng-YCStartup-Peformance/data/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("processed","processed",1,64,"64 B",1736221051,"1/6/25, 7:37:31 PM");</script>
-<script>addRow("raw","raw",1,320,"320 B",1736221055,"1/6/25, 7:37:35 PM");</script>
