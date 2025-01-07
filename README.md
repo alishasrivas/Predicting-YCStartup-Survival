@@ -1,4 +1,4 @@
-# Predicting Y Combinator Startups Survival: Machine Learning
+# Predicting Y Combinator Startup Survival: Machine Learning
 
 ## 🚀 Project Overview
 
