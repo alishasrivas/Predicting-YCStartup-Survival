@@ -49,9 +49,11 @@ After completing the EDA and regression modeling, we plan to:
 **Model Development:**
 - Fit and evaluate Cox Proportional Hazards and Random Survival Forest models.
 - Compare performance metrics such as C-index and log-rank test results.
+
 **Actionable Insights:**
 - Identify the most influential factors affecting startup survival.
 - Provide recommendations for aspiring YC founders based on the findings.
+
 **Portfolio Showcase:**
 - Incorporate visualizations and dashboards into the GitHub repository to enhance usability and presentation.
 
