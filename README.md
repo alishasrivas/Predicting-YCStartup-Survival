@@ -27,11 +27,12 @@ We are currently integrating exploratory data analysis (EDA) with survival-speci
 ## 🎯 Survival Definitions
 
 Primary Survival
--**Definition:** A startup is considered to have survived if it is acquired or remains operational (not defunct) after completing the YC program.
+- **Definition:** A startup is considered to have survived if it is acquired or remains operational (not defunct) after completing the YC program.
 - **Event Indicator:** Binary (1 if acquired, 0 otherwise).
 Secondary Survival
 - **Definition:** A startup is considered to have survived post-YC if it raises Series A funding or higher after completing the YC program.
--**Event Indicator:** Binary (1 if Series A funding is raised, 0 otherwise).
+- **Event Indicator:** Binary (1 if Series A funding is raised, 0 otherwise).
+
 YC-Specific Feature:
 Series A funding and operational status is considered only after the YC end date (start date + 3 months).
 
@@ -46,6 +47,7 @@ Random Survival Forest: For capturing non-linear relationships and complex inter
 ## Next Steps
 
 After completing the EDA and regression modeling, we plan to:
+
 **Model Development:**
 - Fit and evaluate Cox Proportional Hazards and Random Survival Forest models.
 - Compare performance metrics such as C-index and log-rank test results.
